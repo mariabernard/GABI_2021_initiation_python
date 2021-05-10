@@ -60,7 +60,8 @@ SD = round(sqrt(sum_deviation / N), 2)
 list_number.sort()
 Median = list_number[int(N / 2)]
 
-
+# print results : 
+#   Nombre=N Somme=S Moyenne=Mo SD=SD Min=Mi Max=Ma Mediane=Me
 print("Nombre=" + str(N) + " Somme=" + str(Sum) + " Moyenne=" + str(Mean) +
       " SD=" + str(SD) + " Min=" + str(Min) + " Max=" + str(Max) +
       " Mediane=" + str(Median) + "\n")
