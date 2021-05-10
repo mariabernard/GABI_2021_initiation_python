@@ -14,9 +14,10 @@ Simple python script to discover terminal, script, numbers and string, and simpl
 
 More complexe script to parse list in a loop, compute simple mathematics metrics, and improve a first version bu using dedicated package.
 
-uncomment/comment corresponding line in the .replit file.
+Uncomment/Comment corresponding line in the .replit file.
 
 ## Step3 : getseq
 
 More specialised script to manipulate object to read biological file.
+
 Uncomment/Comment corresponding line in the .replit file.
