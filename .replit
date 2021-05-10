@@ -1,3 +1,4 @@
-#run = "python3 init/init.py"
-run = "python3 colstat/colstat_correction.py"
+language = "python"
+run = "python3 init/init.py"
+#run = "python3 colstat/colstat_correction.py"
 #run = "python3 getseq/getseq.py"
