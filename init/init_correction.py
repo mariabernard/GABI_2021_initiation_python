@@ -51,3 +51,59 @@ print(SOME_DICT.keys())
 #   print dict_keys(['prenoms','age','est_permanent'])
 print(SOME_DICT.values())
 #   print dict_values([['Pierre', 'Paul', 'Jacques'], 44, True])
+
+
+####################################
+# parse list (or dict) using for loop
+
+#   on a list
+SCORES = [1, 0.5, 0.2]
+for score in SCORES:
+  print(score)
+  print(type(score))
+  
+
+# 1
+# 0.5
+# 0.2
+
+# on a Dictionnary
+RH_dict = {
+'Matricule1':'Maria Bernard',
+'Matricule2':'Mathieu Charles'
+}
+for matricule in RH_dict:
+	print(matricule)
+	print(RH_dict[matricule])
+
+# Matricule1
+# Maria Bernard
+# Matricule2
+# Mathieu Charles
+
+
+####################################
+# how to express tests
+
+score = 14
+if score < 10:
+	print("peut mieux faire")
+elif score < 20:
+	print("bien")
+elif score == 20:
+	print("parfait")
+else:
+	print("absent")
+
+# bien
+
+SCORES = [6, 11, 15, 20]
+for score in SCORES:
+	if score < 10:
+		print("peut mieux faire")
+	elif score < 20:
+		print("bien")
+	elif score == 20:
+		print("parfait")
+	else:
+		print("absent")

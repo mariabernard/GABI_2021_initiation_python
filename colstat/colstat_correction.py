@@ -5,14 +5,13 @@
 #     - number of element
 #     - sum
 #     - mean
-#     - standard deviation
 #     - min
 #     - max
 #     - median
 #
-# Solution 1 : by computing it "manually", except for standard deviation for which you need to use the sqrt function of the "math" library
+# Solution 1 : by computing it "manually"
 #
-# Solution 2 : use dedicated function from math library
+# Solution 2 : use dedicated function from statistics library : https://docs.python.org/3/library/statistics.html
 #
 #################################################################################
 
@@ -25,7 +24,6 @@ list_number = [3, 4, 1, 5, 2]
 
 ## SOLUTION 1
 
-from math import *
 
 # initialisation of metric : number of element, sum, min and max
 # (some of them are needed to compute mean and sd)
@@ -50,21 +48,14 @@ for number in list_number:
 # compute mean
 Mean = Sum / N
 
-# compute standard deviation using sqrt() function
-sum_deviation = 0
-for number in list_number:
-    sum_deviation = sum_deviation + ((number - Mean) * (number - Mean))
-SD = round(sqrt(sum_deviation / N), 2)
-
 # compute median
 list_number.sort()
 Median = list_number[int(N / 2)]
 
 # print results : 
-#   Nombre=N Somme=S Moyenne=Mo SD=SD Min=Mi Max=Ma Mediane=Me
+#   Nombre=N Somme=S Moyenne=Mo Min=Mi Max=Ma Mediane=Me
 print("Nombre=" + str(N) + " Somme=" + str(Sum) + " Moyenne=" + str(Mean) +
-      " SD=" + str(SD) + " Min=" + str(Min) + " Max=" + str(Max) +
-      " Mediane=" + str(Median) + "\n")
+      " Min=" + str(Min) + " Max=" + str(Max) + " Mediane=" + str(Median) + "\n")
 
 #################################################################################
 

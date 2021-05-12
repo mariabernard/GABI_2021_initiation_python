@@ -5,14 +5,13 @@
 #     - number of element
 #     - sum
 #     - mean
-#     - standard deviation
 #     - min
 #     - max
 #     - median
 #
-# Solution 1 : by computing it "manually", except for standard deviation for which you need to use the sqrt function of the "math" library
+# Solution 1 : by computing it "manually"
 #
-# Solution 2 : use dedicated function from math library
+# Solution 2 : use dedicated function from statistics library : https://docs.python.org/3/library/statistics.html
 #
 #################################################################################
 
@@ -24,8 +23,6 @@ list_number = [3, 4, 1, 5, 2]
 #################################################################################
 
 ## SOLUTION 1
-
-from math import *
 
 # initialisation of metric : number of element, sum, min and max
 # (some of them are needed to compute mean and sd)
@@ -40,14 +37,11 @@ from math import *
 # compute mean
                 # TO COMPLETE
 
-# compute standard deviation using sqrt() function
-                # TO COMPLETE
-
 # compute median
                 # TO COMPLETE
 
 # print results : 
-#   Nombre=N Somme=S Moyenne=Mo SD=SD Min=Mi Max=Ma Mediane=Me
+#   Nombre=N Somme=S Moyenne=Mo Min=Mi Max=Ma Mediane=Me
 
 #################################################################################
 
