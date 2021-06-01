@@ -73,13 +73,11 @@ RH_dict = {
 'Matricule2':'Mathieu Charles'
 }
 for matricule in RH_dict:
-	print(matricule)
-	print(RH_dict[matricule])
+  print(matricule + ' est ' + RH_dict[matricule])
 
-# Matricule1
-# Maria Bernard
-# Matricule2
-# Mathieu Charles
+
+# Matricule1 est Maria Bernard
+# Matricule2 est Mathieu Charles
 
 
 ####################################
@@ -97,7 +95,7 @@ else:
 
 # bien
 
-SCORES = [6, 11, 15, 20]
+SCORES = [6, 11, 15, 20, -1]
 for score in SCORES:
 	if score < 10:
 		print("peut mieux faire")

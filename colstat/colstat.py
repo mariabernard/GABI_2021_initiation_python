@@ -27,8 +27,10 @@ list_number = [3, 4, 1, 5, 2]
 # initialisation of metric : number of element, sum, min and max
 # (some of them are needed to compute mean and sd)
 
-                # TO COMPLETE
-
+N = 0
+Sum = 0
+Min = None
+Max = None
 
 # parse list_number using a for loop and compute previous metrics
 
