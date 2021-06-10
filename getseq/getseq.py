@@ -25,8 +25,8 @@ sequence_out_path = 'getseq/sequence1_manual.fasta'
 name='sequence2'
 sequences_in_path = 'getseq/sequences.fasta'
 sequence_out_path = 'getseq/sequence2_insert_manual.fasta'
-start = # TO COMPLETE
-stop = # TO COMPLETE
+start = "??" # TO COMPLETE
+stop = "??" # TO COMPLETE
 
 #    TO COMPLETE
 
@@ -53,5 +53,5 @@ sequence_out_path = 'getseq/sequence1_biopython.fasta'
 name='sequence2'
 sequences_in_path = 'getseq/sequences.fasta'
 sequence_out_path = 'getseq/sequence2_insert_biopython.fasta'
-start = # TO COMPLETE
-stop = # TO COMPLETE
+start = "??" # TO COMPLETE
+stop = "??" # TO COMPLETE

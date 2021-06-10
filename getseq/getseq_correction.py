@@ -85,11 +85,8 @@ name='sequence1'
 sequences_in_path = 'getseq/sequences.fasta'
 sequence_out_path = 'getseq/sequence1_biopython.fasta'
 
-write_seq = False
-
 for record in SeqIO.parse(sequences_in_path, "fasta"):
   if record.id == name :
-    write_seq = True
     SeqIO.write(record, sequence_out_path, "fasta")
 
 #
@@ -101,10 +98,8 @@ sequences_in_path = 'getseq/sequences.fasta'
 sequence_out_path = 'getseq/sequence2_insert_biopython.fasta'
 start = 8
 stop = 13
-write_seq = False
 
 for record in SeqIO.parse(sequences_in_path, "fasta"):
   if record.id == name:
-    write_seq = True
     record.seq = record.seq[start:stop+1]
     SeqIO.write(record, sequence_out_path, "fasta")
